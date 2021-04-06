@@ -1,7 +1,4 @@
-import React from 'react';
 import './App.css';
-import { Route, Switch } from 'react-router';
-import HomePage from './homePage/HomePage';
 import AboutPage from './about/AboutPage';
 import ExperiencePage from './experience/ExperiencePage';
 import NavbarComponent from '../common/NavbarComponent';
@@ -13,14 +10,11 @@ function App() {
   return (
     <div className="App">
       <NavbarComponent></NavbarComponent>
-      <Switch>
-        <Route exact path="/" component={HomePage}/>
-        <Route path="/About" component={AboutPage}/>
-        <Route path="/Experience" component={ExperiencePage}/>
-        <Route path="/Education" component={EducationPage}/>
-        <Route path="/Skills" component={SkillsPage}/>
-        <Route path="/Interests" component={InterestsPage}/>
-      </Switch>
+      <AboutPage></AboutPage>
+      <ExperiencePage></ExperiencePage>
+      <EducationPage></EducationPage>
+      <SkillsPage></SkillsPage>
+      <InterestsPage></InterestsPage>
     </div>
   );
 }

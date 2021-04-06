@@ -1,17 +1,17 @@
-import React from 'react'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import './NavbarComponent.css';
 
 export default function NavbarComponent() {
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
         <Navbar.Brand>Carlos Antequera Sánchez</Navbar.Brand>
         <Nav>
-          <Nav.Link href="/About">About</Nav.Link>
-          <Nav.Link href="/Experience">Experience</Nav.Link>
-          <Nav.Link href="/Education">Education</Nav.Link>
-          <Nav.Link href="/Skills">Skills</Nav.Link>
-          <Nav.Link href="/Interests">Interests</Nav.Link>
+          <a className="link" href='/mycv/#About'>About</a>
+          <a className="link" href="/mycv/#Experience">Experience</a>
+          <a className="link" href="/mycv/#Education">Education</a>
+          <a className="link" href="/mycv/#Skills">Skills</a>
+          <a className="link" href="/mycv/#Interests">Interests</a>
         </Nav>
       </Navbar>
     )
