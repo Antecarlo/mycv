@@ -1,4 +1,4 @@
-name: Generate PDF
+name: Generate and Release PDF
 on:
   push:
     branches:
@@ -7,9 +7,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install Pandoc
         run: sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
@@ -17,8 +18,9 @@ jobs:
       - name: Generate PDF
         run: pandoc README.md -o CV_Carlos_Antequera.pdf --pdf-engine=pdflatex
 
-      - name: Upload PDF
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: CV-PDF
-          path: CV_Carlos_Antequera.pdf
+          tag_name: latest
+          files: CV_Carlos_Antequera.pdf
+          force: true

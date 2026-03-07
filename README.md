@@ -4,6 +4,12 @@
 
 ---
 
+### Download my CV
+
+[Download latest PDF version](https://github.com/Antecarlo/mycv/releases/download/latest/CV_Carlos_Antequera.pdf)
+
+---
+
 ## Professional Experience
 
 ### **Automation Engineer** | Deliverect
