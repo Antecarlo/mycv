@@ -2,21 +2,13 @@
 
 **Automation Engineer | Software Developer** Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170
 
----
-
-### Download my CV
-
-[Download latest PDF version](https://github.com/Antecarlo/mycv/releases/download/latest/CV_Carlos_Antequera.pdf)
-
----
-
 ## Professional Experience
 
 ### **Automation Engineer** | Deliverect
 
 _2022 – Present_
 
-- **Main responsibilities:** Automate business processes, from identification to deployment, leveraging custom scripting, workflow orchestration, system integrations, and Generative AI.
+- Automate business processes, from identification to deployment, leveraging custom scripting, workflow orchestration, system integrations, and Generative AI.
 - **AI & Business Automation:** Designed and developed a quote validation tool using **FastAPI** and **Vertex AI**, automating complex business rules from Google Sheets and integrating them with a TypeScript UI. Implementing telemetry and logging systems with **BigQuery**.
 - **Data & Workflow Orchestration:** Managing critical event-driven and scheduled automations using **Apache Airflow**, synchronizing data across **Deliverect, NetSuite, HubSpot, and Planhat** via custom API integrations.
 - **Backend Engineering:** Developed a synchronous onboarding service for reselling partners using **FastAPI** and **PostgreSQL** to automate customer intake.
