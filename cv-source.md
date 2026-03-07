@@ -1,18 +1,21 @@
 ---
 header-includes:
   - \usepackage{graphicx}
-  - \usepackage{array}
 geometry: margin=2cm
 fontsize: 11pt
 ---
 
-\begin{tabular}{@{}p{0.2\textwidth} p{0.75\textwidth}@{}}
-\includegraphics[width=0.18\textwidth]{foto.jpg} &
-\vspace{0.1cm}
+\begin{minipage}[t]{0.2\textwidth}
+\vspace{0pt}
+\includegraphics[width=\textwidth]{foto.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
 {\huge \textbf{Carlos Antequera Sánchez}} \\
-& \textbf{Automation Engineer | Software Developer} \\
-& Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170 \\
-\end{tabular}
+\textbf{Automation Engineer | Software Developer} \\
+Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170
+\end{minipage}
 
 \vspace{0.5cm}
 
