@@ -1,0 +1,24 @@
+name: Generate PDF
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+
+      - name: Generate PDF
+        run: pandoc README.md -o CV_Carlos_Antequera.pdf --pdf-engine=pdflatex
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: CV-PDF
+          path: CV_Carlos_Antequera.pdf
