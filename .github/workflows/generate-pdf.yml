@@ -16,7 +16,7 @@ jobs:
         run: sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
 
       - name: Generate PDF
-        run: pandoc cv.md -o CV_Carlos_Antequera.pdf --pdf-engine=xelatex -V geometry:margin=2cm --metadata title=""
+        run: pandoc cv-source.md -o CV_Carlos_Antequera.pdf --pdf-engine=xelatex -V geometry:margin=2cm --metadata title=""
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
