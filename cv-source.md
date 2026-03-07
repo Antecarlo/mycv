@@ -6,9 +6,9 @@ geometry: margin=2cm
 fontsize: 11pt
 ---
 
-\begin{tabular}{@{}p{0.25\textwidth} p{0.75\textwidth}@{}}
-\includegraphics[width=0.2\textwidth]{foto.jpg} &
-\vspace{0.2cm}
+\begin{tabular}{@{}p{0.2\textwidth} p{0.75\textwidth}@{}}
+\includegraphics[width=0.18\textwidth]{foto.jpg} &
+\vspace{0.1cm}
 {\huge \textbf{Carlos Antequera Sánchez}} \\
 & \textbf{Automation Engineer | Software Developer} \\
 & Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170 \\
