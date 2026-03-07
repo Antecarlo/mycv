@@ -1,7 +1,6 @@
 ---
 title: "Carlos Antequera Sánchez"
 geometry: margin=2cm
-mainfont: Helvetica
 fontsize: 11pt
 ---
 

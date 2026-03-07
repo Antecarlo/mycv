@@ -22,6 +22,7 @@ jobs:
           pandoc cv-source.md -o CV_Carlos_Antequera.pdf \
           --pdf-engine=xelatex \
           -V geometry:margin=2cm \
+          -V mainfont=DejaVuSans \
           --metadata title=""
 
       - name: Create Release
