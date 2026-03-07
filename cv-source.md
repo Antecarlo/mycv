@@ -1,6 +1,18 @@
+---
+title: "Carlos Antequera Sánchez"
+geometry: margin=2cm
+mainfont: Helvetica
+fontsize: 11pt
+---
+
+::: {layout="[70, 30]"}
+
 # Carlos Antequera Sánchez
 
 **Automation Engineer | Software Developer** Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170
+
+![Mi foto](foto.jpg){width=100px}
+:::
 
 ## Professional Experience
 
