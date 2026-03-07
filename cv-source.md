@@ -1,5 +1,6 @@
 ---
 header-includes:
+  - \usepackage{graphicx}
   - \usepackage{array}
 geometry: margin=2cm
 fontsize: 11pt
