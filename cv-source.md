@@ -1,21 +1,19 @@
 ---
-title: "Carlos Antequera Sánchez"
+header-includes:
+  - \usepackage{wrapfig}
+  - \usepackage{graphicx}
 geometry: margin=2cm
 fontsize: 11pt
 ---
 
-::: {layout="[70, 30]"}
+\begin{wrapfigure}{l}{0.2\textwidth}
+\vspace{-20pt}
+\includegraphics[width=0.18\textwidth]{foto.jpg}
+\end{wrapfigure}
 
 # Carlos Antequera Sánchez
 
 **Automation Engineer | Software Developer** Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170
-
-![Mi foto](foto.jpg){width=100px}
-:::
-
-## Professional Experience
-
-### **Automation Engineer** | Deliverect
 
 _2022 – Present_
 
