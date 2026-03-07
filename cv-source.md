@@ -1,19 +1,19 @@
 ---
 header-includes:
-  - \usepackage{wrapfig}
-  - \usepackage{graphicx}
+  - \usepackage{array}
 geometry: margin=2cm
 fontsize: 11pt
 ---
 
-\begin{wrapfigure}{l}{0.2\textwidth}
-\vspace{-20pt}
-\includegraphics[width=0.18\textwidth]{foto.jpg}
-\end{wrapfigure}
+\begin{tabular}{@{}p{0.25\textwidth} p{0.75\textwidth}@{}}
+\includegraphics[width=0.2\textwidth]{foto.jpg} &
+\vspace{0.2cm}
+{\huge \textbf{Carlos Antequera Sánchez}} \\
+& \textbf{Automation Engineer | Software Developer} \\
+& Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170 \\
+\end{tabular}
 
-# Carlos Antequera Sánchez
-
-**Automation Engineer | Software Developer** Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170
+\vspace{0.5cm}
 
 _2022 – Present_
 
