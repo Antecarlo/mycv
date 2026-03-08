@@ -7,17 +7,21 @@ fontsize: 11pt
 
 \begin{minipage}[t]{0.2\textwidth}
 \vspace{0pt}
-\includegraphics[width=\textwidth]{foto.jpg}
+\includegraphics[width=2.5cm]{foto.jpg}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.75\textwidth}
-\vspace{0pt}
+\vspace{1cm}
 {\huge \textbf{Carlos Antequera Sánchez}} \\
 \textbf{Automation Engineer | Software Developer} \\
 Madrid, Spain | c.antequerasanchez@gmail.com | +34 662 491 170
 \end{minipage}
 
 \vspace{0.5cm}
+
+## Experience
+
+### **Automation Engineer** | Deliverect
 
 _2022 – Present_
 
